@@ -7,10 +7,10 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 
 # Email of the Service Account
-SERVICE_ACCOUNT_EMAIL = 'email-signature@email-signatures-259817.iam.gserviceaccount.com'
+SERVICE_ACCOUNT_EMAIL = 'yourserviceaccount.com'
 
 # Path to the Service Account's Private Key file
-SERVICE_ACCOUNT_PKCS12_FILE_PATH = '/Users/matthewobrien/Dropbox (BEworks)/HR - Organization/Python Projects/Email_Sigs/Email_Script_Key.p12'
+SERVICE_ACCOUNT_PKCS12_FILE_PATH = 'Path to PKS12 file'
 
 def create_directory_service(user_email):
     """Build and returns an Admin SDK Directory service object authorized with the service accounts
